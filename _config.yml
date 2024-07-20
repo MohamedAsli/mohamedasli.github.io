@@ -87,7 +87,7 @@ analytics:
 # Site Author
 author:
   name             : "Mohamed ASLI"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Passionately curious."
   location         : "Chambéry, France"
   email            :
