@@ -6,15 +6,6 @@ description              : "My personal website."
 url                      : "https://mohamedasli.github.io"
 baseurl                  : ""
 
-# Site Author
-author:
-  name             : "Mohamed ASLI"
-  avatar           : # "/assets/images/profile.jpg"
-  bio              : # "Passionately curious."
-  location         : # "Chambéry, France"
-  email            : # "aslimhmd@gmail.com"
-
-
 plugins:
   - jekyll-include-cache
 
