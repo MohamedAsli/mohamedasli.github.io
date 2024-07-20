@@ -3,21 +3,6 @@ title: Mohamed ASLI - BIM Manager
 
 ---
 
-# Mohamed ASLI
-
-**BIM Manager**
-
----
-
-## Coordonnées
-
-- **Adresse:** 122, rue du Beaujolais, 73000 Chambéry
-- **Téléphone:** +33(0)7.51.54.72.05
-- **Email:** aslimhmd@gmail.com
-- **LinkedIn:** [linkedin.com/in/aslimohamed](https://www.linkedin.com/in/mohamedasli/)
-
----
-
 ## Soft Skills
 
 - Résolution de problèmes
