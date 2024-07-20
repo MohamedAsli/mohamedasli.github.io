@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Mohamed ASLI - BIM Manager
 ---
 
