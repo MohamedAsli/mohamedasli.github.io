@@ -1,0 +1,6 @@
+title: My Portfolio
+description: This is my portfolio site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mohamedasli.github.io" # the base hostname & protocol for your site
+
+remote_theme: alshedivat/al-folio
