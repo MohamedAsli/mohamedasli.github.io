@@ -1,10 +1,10 @@
-remote_theme             : mmistakes/minimal-mistakes@4.24.2
+remote_theme: mmistakes/minimal-mistakes@4.24.2
 
 # Site Settings
-title                    : "Mohamed ASLI"
-description              : "My personal website."
-url                      : "https://mohamedasli.github.io"
-baseurl                  : ""
+title: "Mohamed ASLI"
+description: "My personal website."
+url: "https://mohamedasli.github.io"
+baseurl: ""
 
 plugins:
   - jekyll-include-cache
