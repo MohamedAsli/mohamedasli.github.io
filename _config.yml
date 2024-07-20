@@ -4,7 +4,6 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Mohamed ASLI"
-name                     : "Mohamed ASLI"
 description              : "My personal website."
 url                      : "https://mohamedasli.github.io"
 baseurl                  : ""
@@ -12,20 +11,11 @@ baseurl                  : ""
 # Site Author
 author:
   name             : "Mohamed ASLI"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "Passionately curious."
-  location         : "Chambéry, France"
-  email            : "aslimhmd@gmail.com"
-  links:
-    - label: "aslimhmd@gmail.com"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:aslimhmd@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/MohamedAsli"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mohamedasli/"
+  avatar           : # "/assets/images/profile.jpg"
+  bio              : # "Passionately curious."
+  location         : # "Chambéry, France"
+  email            : # "aslimhmd@gmail.com"
+
 
 plugins:
   - jekyll-include-cache
