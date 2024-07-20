@@ -57,7 +57,7 @@ atom_feed:
   hide                   : true
 search                   : true
 search_full_content      : true
-search_provider          : lunr # (default), algolia, google
+search_provider          : google # (default), algolia, google
 lunr:
   search_within_pages    : true, false (default)
 
