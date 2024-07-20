@@ -5,3 +5,15 @@ url: "https://mohamedasli.github.io" # the base hostname & protocol for your sit
 plugins:
   - jekyll-include-cache
 remote_theme: mmistakes/minimal-mistakes@4.26.2
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
