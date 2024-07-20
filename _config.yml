@@ -88,12 +88,11 @@ analytics:
 author:
   name             : "Mohamed ASLI"
   avatar           : "/assets/images/profile.jpg"
-  bio              : |
+  bio              : |+
     BIM Manager
-    
     Problem solver
-    
     Passionately curious
+
   location         : "Chambéry, France"
   email            :
   links:
