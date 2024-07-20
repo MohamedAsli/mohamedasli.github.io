@@ -1,6 +1,6 @@
 ---
 title: Mohamed ASLI - BIM Manager
-
+classes: wide
 ---
 
 ## Soft Skills
