@@ -1,53 +1,7 @@
-remote_theme             : mmistakes/minimal-mistakes@4.24.2
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "en-US"
-title                    : "Mohamed ASLI"
-title_separator          : "-"
-name                     : "Mohamed ASLI"
-description              : "My personal website."
-url                      : "https://mohamedasli.github.io"
-
-# Site Author
-author:
-  name             : "Mohamed ASLI"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "Passionately curious."
-  location         : "Chambéry, France"
-  email            : "aslimhmd@gmail.com"
-  links:
-    - label: "aslimhmd@gmail.com"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:aslimhmd@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/MohamedAsli"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mohamedasli/"
-
-# Plugins (previously gems:)
+title: My Portfolio
+description: This is my portfolio site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mohamedasli.github.io" # the base hostname & protocol for your site
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-
-whitelist:
-  - jekyll-include-cache
-
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+remote_theme: mmistakes/minimal-mistakes@4.26.2
