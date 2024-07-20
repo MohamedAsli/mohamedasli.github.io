@@ -1,7 +1,6 @@
 remote_theme             : mmistakes/minimal-mistakes@4.24.2
 
 # Site Settings
-locale                   : "en-US"
 title                    : "Mohamed ASLI"
 description              : "My personal website."
 url                      : "https://mohamedasli.github.io"
