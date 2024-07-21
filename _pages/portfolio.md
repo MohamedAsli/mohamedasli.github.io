@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /portfolio/
 header:
     image: /assets/images/palais_smoky.png
