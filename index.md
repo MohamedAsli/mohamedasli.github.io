@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Mohamed ASLI - BIM Manager
 classes: wide
 sidebar:
   nav: 
