@@ -284,9 +284,6 @@ compress_html:
 
 # Defaults
 defaults:
-  - scope:
-    sidebars:
-      nav: "docs"
   # _posts
   - scope:
       path: ""
@@ -307,4 +304,3 @@ defaults:
       author_profile: true
     sidebar:
       nav: "docs"
-      sticky: true
