@@ -38,6 +38,7 @@ header:
 ![](/assets/images/models/maquette plan.jpg)
 
 # Dessins
+<embed src="/assets/images/sketches/une rue un passage.pdf" type="application/pdf" width="100%" height="600px" />
 ![](/assets/images/sketches/Buyuk Saat.pdf)
 ![](/assets/images/sketches/Cireurs.pdf)
 ![](/assets/images/sketches/Marché-Métro.pdf)
