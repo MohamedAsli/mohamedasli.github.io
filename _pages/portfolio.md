@@ -38,14 +38,25 @@ header:
 ![](/assets/images/models/maquette plan.jpg)
 
 # Dessins
-<embed src="/assets/images/sketches/une rue un passage.pdf" type="application/pdf" width="100%" height="600px" />
-![](/assets/images/sketches/Buyuk Saat.pdf)
-![](/assets/images/sketches/Cireurs.pdf)
-![](/assets/images/sketches/Marché-Métro.pdf)
+![](/assets/images/sketches/plan_croquis.png)
+
+![](/assets/images/sketches/Buyuk Saat.png)
+
+![](/assets/images/sketches/Cireurs.png)
+
+![](/assets/images/sketches/Marché-Métro.png)
+
 ![](/assets/images/sketches/Rue Usine.jpg)
-![](/assets/images/sketches/Rue 2.pdf)
-![](/assets/images/sketches/Rue 3.pdf)
-![](/assets/images/sketches/Sabanci Merkez Camii.pdf)
-![](/assets/images/sketches/Ulu Cami Medresesi.pdf)
-![](/assets/images/sketches/une rue un passage.pdf)
-![](/assets/images/sketches/Yag Camii.pdf)
+
+![](/assets/images/sketches/Rue 2.png)
+
+![](/assets/images/sketches/Rue 3.png)
+
+![](/assets/images/sketches/Sabanci Merkez Camii.png)
+
+![](/assets/images/sketches/Ulu Cami Medresesi.png)
+
+![](/assets/images/sketches/une rue un passage.png)
+
+![](/assets/images/sketches/Yag Camii.png)
+
