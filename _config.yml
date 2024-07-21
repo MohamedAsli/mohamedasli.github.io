@@ -284,6 +284,8 @@ compress_html:
 
 # Defaults
 defaults:
+  - sidebar:
+      nav: "docs"
   # _posts
   - scope:
       path: ""
