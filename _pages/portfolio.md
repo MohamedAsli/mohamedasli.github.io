@@ -3,6 +3,7 @@ layout: splash
 permalink: /portfolio/
 header:
     image: /assets/images/palais_smoky.png
+    overlay_title: "Portfolio"
     image_description: "Maquette du palais de justice de Pontoise"
 ---
 
