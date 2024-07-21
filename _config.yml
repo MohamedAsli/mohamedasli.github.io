@@ -87,7 +87,7 @@ analytics:
 # Site Author
 author:
   name             : "Mohamed ASLI"
-  avatar           : "docs/assets/images/profile_nb.jpg"
+  avatar           : "/assets/images/profile_nb.jpg"
   bio              : |+
     BIM Manager
     Problem solver
