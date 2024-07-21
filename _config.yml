@@ -1,4 +1,4 @@
-remote_theme             : alshedivat/al-folio #mmistakes/minimal-mistakes@4.26.2
+remote_theme             : alshedivat/al-folio@0.12.0 #mmistakes/minimal-mistakes@4.26.2
 minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
