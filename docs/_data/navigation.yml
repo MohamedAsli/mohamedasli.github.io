@@ -13,9 +13,7 @@ docs:
     url: /
   - title: "Développement"
     children:
-      - title: "Python"
+      - title: "Python/pyRevit"
         url: /docs/python/
-      - title: "pyRevit"
-        url: /docs/pyRevit/
       - title: "Dynamo"
         url: /docs/dynamo/
