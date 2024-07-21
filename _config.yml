@@ -10,7 +10,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Mohamed ASLI"
 description              : "My personal website."
 url                      : "https://mohamedasli.github.io"
-baseurl                  : "/home"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mohamedasli/mohamedasli.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
