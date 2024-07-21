@@ -7,3 +7,15 @@ main:
     url: /contact/
   - title: "Portfolio"
     url: /portfolio/
+
+docs:
+  - title: "HOME"
+    url: /
+  - title: "Développement"
+    children:
+      - title: "Python"
+        url: /docs/python/
+      - title: "pyRevit"
+        url: /docs/pyRevit/
+      - title: "Dynamo"
+        url: /docs/dynamo/
