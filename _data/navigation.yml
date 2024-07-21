@@ -14,6 +14,6 @@ docs:
   - title: "Développement"
     children:
       - title: "Python/pyRevit"
-        url: /docs/python/
+        url: /_pages/python/
       - title: "Dynamo"
         url: /docs/dynamo/
