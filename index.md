@@ -81,13 +81,14 @@ Projets : mixte, logements collectifs, ERP, habitat d’urgence, aménagement ex
 ## Formations
 [//]: # (put in table form)
 
-- **HTML** | Codecademy | 2024
-- **Excel VBA** | ib Cegos | 2023
-- **Python** | ORSYS | 2022
-- **Dynamo** | Atelier Juno | 2021
-- **Python 3** | Codecademy | 2020
-- **Revit Architecture** | ADIG | 2018
-- **Diplôme d’État d’Architecte** | ENSA-PLV | 2017
+| Formation              | Organisme | Année |
+|------------------------| --- | --- |
+| **HTML**               | Codecademy | 2024
+| **Excel VBA**          | ib Cegos | 2023
+| **Python**             | ORSYS | 2022
+| **Dynamo**             | Atelier Juno | 2021
+| **Python 3**           | Codecademy | 2020
+| **Revit Architecture** | ADIG | 2018 |Diplôme d’État d’Architecte** | ENSA-PLV | 2017
 
 ---
 
