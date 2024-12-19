@@ -7,12 +7,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fadeIn">
           <h1 className="text-4xl md:text-6xl font-bold text-secondary">
-            BIM Manager & <span className="text-primary">Architecture</span> Professional
+            BIM Manager & <span className="text-primary">Developer</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+          <div className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+            <div className="mb-4">Problem Solver | Passionately Curious</div>
             Bridging the gap between architectural design and technological innovation through
             advanced BIM solutions and custom tool development.
-          </p>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/portfolio"
