@@ -17,7 +17,12 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="font-display text-xl font-bold text-secondary">
+          <Link to="/" className="font-display text-xl font-bold text-secondary flex items-center gap-3">
+            <img
+              src="/images/profile.jpg"
+              alt="Mohamed ASLI"
+              className="w-10 h-10 rounded-full object-cover border-2 border-primary"
+            />
             Mohamed ASLI
           </Link>
 
