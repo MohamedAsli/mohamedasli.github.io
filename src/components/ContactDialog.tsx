@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { useTranslations } from "@/hooks/useTranslations";
 
 interface ContactDialogProps {
   open: boolean;
@@ -15,6 +16,8 @@ interface ContactDialogProps {
 }
 
 const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
+  const t = useTranslations();
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -29,28 +32,28 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle className="text-center">Get in Touch</DialogTitle>
+          <DialogTitle className="text-center">{t.contact.title}</DialogTitle>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4">
           <Input
-            placeholder="Your Name"
+            placeholder={t.contact.name}
             name="name"
             required
           />
           <Input
             type="email"
-            placeholder="Your Email"
+            placeholder={t.contact.email}
             name="email"
             required
           />
           <Textarea
-            placeholder="Your Message"
+            placeholder={t.contact.message}
             name="message"
             required
             className="min-h-[100px]"
           />
           <Button type="submit" className="w-full">
-            Send Message
+            {t.contact.send}
             <Mail className="ml-2 h-4 w-4" />
           </Button>
         </form>

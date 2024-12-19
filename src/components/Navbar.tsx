@@ -2,16 +2,19 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import ContactDialog from "./ContactDialog";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslations } from "@/hooks/useTranslations";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
+  const t = useTranslations();
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "CV", path: "/cv" },
+    { name: t.nav.home, path: "/" },
+    { name: t.nav.about, path: "/about" },
+    { name: t.nav.portfolio, path: "/portfolio" },
+    { name: t.nav.cv, path: "/cv" },
   ];
 
   return (
@@ -28,7 +31,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -42,18 +45,22 @@ const Navbar = () => {
               onClick={() => setContactOpen(true)}
               className="text-secondary/80 hover:text-primary transition-colors"
             >
-              Contact
+              {t.nav.contact}
             </button>
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center gap-4">
+            <LanguageSwitcher />
+            <button
+              className="p-2"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -77,7 +84,7 @@ const Navbar = () => {
                 }}
                 className="text-left text-secondary/80 hover:text-primary transition-colors"
               >
-                Contact
+                {t.nav.contact}
               </button>
             </div>
           </div>
