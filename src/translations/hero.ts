@@ -8,7 +8,7 @@ export const heroTranslations = {
   },
   fr: {
     title: "BIM Manager & Développeur",
-    subtitle: "Résolveur de problèmes | Passionnément curieux",
+    subtitle: "Problem Solver | Passionnément curieux",
     description: "Créer un pont entre la conception architecturale et l'innovation technologique grâce à des solutions BIM avancées et au développement d'outils personnalisés.",
     viewPortfolio: "Voir le Portfolio",
     getInTouch: "Me Contacter"
