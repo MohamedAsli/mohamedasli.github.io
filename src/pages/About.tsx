@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import { useTranslations } from "@/hooks/useTranslations";
 
 const About = () => {
@@ -17,32 +15,22 @@ const About = () => {
             />
             <div>
               <h1 className="text-4xl font-bold mb-4">{t.about.title}</h1>
-              <h2 className="text-xl text-muted-foreground">{t.about.subtitle}</h2>
             </div>
           </div>
 
           <div className="prose prose-slate max-w-none">
-            <p className="lead">{t.about.intro}</p>
-            <p>{t.about.journey}</p>
-            <p>{t.about.experience}</p>
-            <p>{t.about.current}</p>
-
+            <p>{t.about.intro}</p>
+            <p>{t.about.impact}</p>
+            <p>{t.about.career}</p>
+            
             <ul>
               {t.about.projects.map((project, index) => (
                 <li key={index}>{project}</li>
               ))}
             </ul>
 
-            <p>{t.about.conclusion}</p>
-
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Button asChild>
-                <Link to="/portfolio">{t.about.viewProjects}</Link>
-              </Button>
-              <Button asChild variant="outline">
-                <Link to="/cv">{t.about.viewCV}</Link>
-              </Button>
-            </div>
+            <p>{t.about.philosophy}</p>
+            <p>{t.about.personal}</p>
           </div>
         </div>
       </div>
