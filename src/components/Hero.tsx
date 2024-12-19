@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             <div className="mb-4">Problem Solver | Passionately Curious</div>
             Bridging the gap between architectural design and technological innovation through
-            advanced BIM solutions and custom tool development.
+            advanced BIM solutions and custom tool development
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
