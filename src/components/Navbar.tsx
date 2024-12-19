@@ -1,16 +1,17 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import ContactDialog from "./ContactDialog";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
 
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "CV", path: "/cv" },
-    { name: "Contact", path: "/contact" },
   ];
 
   return (
@@ -18,9 +19,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="font-display text-xl font-bold text-secondary flex items-center gap-3">
-            <img
-              src="/images/profile.jpg"
-              alt="Mohamed ASLI"
+            <img 
+              src="/images/profile.jpg" 
+              alt="Mohamed ASLI" 
               className="w-10 h-10 rounded-full object-cover border-2 border-primary"
             />
             Mohamed ASLI
@@ -37,6 +38,12 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+            <button
+              onClick={() => setContactOpen(true)}
+              className="text-secondary/80 hover:text-primary transition-colors"
+            >
+              Contact
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -63,10 +70,20 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
+              <button
+                onClick={() => {
+                  setContactOpen(true);
+                  setIsOpen(false);
+                }}
+                className="text-left text-secondary/80 hover:text-primary transition-colors"
+              >
+                Contact
+              </button>
             </div>
           </div>
         )}
       </div>
+      <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
     </nav>
   );
 };
