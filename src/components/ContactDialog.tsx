@@ -29,8 +29,8 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
 
     try {
       await emailjs.sendForm(
-        'for_mohamedasli.github.io', // Replace with your EmailJS service ID
-        'template_for_github.io', // Replace with your EmailJS template ID
+        'for_mohamedasli.gh.io', // Replace with your EmailJS service ID
+        'template_for_gh.io', // Replace with your EmailJS template ID
         e.currentTarget,
         '0TwE0rJnuFwBjRMSc' // Replace with your EmailJS public key
       );
