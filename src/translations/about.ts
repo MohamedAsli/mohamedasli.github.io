@@ -23,6 +23,6 @@ export const aboutTranslations = {
       "L'intégration du calcul de l'empreinte carbone dans Revit afin d'aider les concepteurs à prendre des décisions éclairées pour des projets plus respectueux de l'environnement."
     ],
     philosophy: "Pour moi, le BIM est bien plus qu'un ensemble d'outils : c'est une démarche collaborative qui transforme la façon dont nous concevons et construisons. Mon objectif est de simplifier les processus pour que chacun puisse se concentrer sur l'essentiel : imaginer des projets qui ont un impact positif sur notre monde.",
-    personal: "En dehors du travail, je suis passionné par la programmation, le cyclisme et l'enseignement. Chaque défi est une opportunité d'apprendre et de progresser, et j'apprécie particulièrement les échanges avec ceux qui partagent la même curiosité et le même enthousiasme."
+    personal: "En dehors du travail, je suis passionné par la programmation, le cyclisme et la transmission des savoirs. Chaque défi est une opportunité d'apprendre et de progresser, et j'apprécie particulièrement les échanges avec ceux qui partagent la même curiosité et le même enthousiasme."
   }
 };
