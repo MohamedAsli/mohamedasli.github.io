@@ -9,6 +9,9 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useTranslations } from "@/hooks/useTranslations";
+import emailjs from '@emailjs/browser';
+import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 
 interface ContactDialogProps {
   open: boolean;
@@ -17,15 +20,37 @@ interface ContactDialogProps {
 
 const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
   const t = useTranslations();
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
-    
-    window.location.href = `mailto:your-email@example.com?subject=Contact from ${name}&body=${message}%0D%0A%0D%0AFrom: ${email}`;
+    setLoading(true);
+
+    try {
+      await emailjs.sendForm(
+        'for_mohamedasli.github.io', // Replace with your EmailJS service ID
+        'template_for_github.io', // Replace with your EmailJS template ID
+        e.currentTarget,
+        '0TwE0rJnuFwBjRMSc' // Replace with your EmailJS public key
+      );
+
+      toast({
+        title: "Success",
+        description: "Your message has been sent successfully!",
+      });
+
+      onOpenChange(false);
+      e.currentTarget.reset();
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -37,13 +62,13 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <Input
             placeholder={t.contact.name}
-            name="name"
+            name="user_name"
             required
           />
           <Input
             type="email"
             placeholder={t.contact.email}
-            name="email"
+            name="user_email"
             required
           />
           <Textarea
@@ -52,8 +77,8 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
             required
             className="min-h-[100px]"
           />
-          <Button type="submit" className="w-full">
-            {t.contact.send}
+          <Button type="submit" className="w-full" disabled={loading}>
+            {loading ? "Sending..." : t.contact.send}
             <Mail className="ml-2 h-4 w-4" />
           </Button>
         </form>
