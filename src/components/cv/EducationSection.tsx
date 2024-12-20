@@ -1,20 +1,10 @@
 import { useTranslations } from "@/hooks/useTranslations";
 
-interface Education {
-  formation: string;
-  organisme: string;
-  annee: string;
-}
-
-interface EducationSectionProps {
-  education: Education[];
-}
-
-const EducationSection = ({ education }: EducationSectionProps) => {
+const EducationSection = () => {
   const t = useTranslations();
 
   return (
-    <div className="mb-8">
+    <div className="mb-12">
       <h2 className="text-2xl font-bold mb-4">{t.cv.education.title}</h2>
       <div className="overflow-x-auto">
         <table className="w-full">
@@ -26,11 +16,11 @@ const EducationSection = ({ education }: EducationSectionProps) => {
             </tr>
           </thead>
           <tbody>
-            {education.map((edu, index) => (
+            {t.cv.content.education.map((edu, index) => (
               <tr key={index} className="border-b">
-                <td className="py-2">{edu.formation}</td>
-                <td className="py-2">{edu.organisme}</td>
-                <td className="py-2">{edu.annee}</td>
+                <td className="py-2">{edu.program}</td>
+                <td className="py-2">{edu.institution}</td>
+                <td className="py-2">{edu.year}</td>
               </tr>
             ))}
           </tbody>

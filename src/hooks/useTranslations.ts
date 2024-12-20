@@ -4,6 +4,7 @@ import { cvTranslations } from "@/data/cv/translations";
 
 export function useTranslations() {
   const { language } = useLanguage();
+  
   return {
     ...translations[language],
     cv: {

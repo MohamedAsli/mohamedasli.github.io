@@ -18,17 +18,17 @@ export const cvTranslations = {
         period: "Since Oct 2021",
         projects: "Projects: Railway stations, maritime stations, SNCF maintenance centers",
         description: [
-          "Analyzes BIM project objectives and drafts BIM protocols",
-          "Sets up CDE in collaboration with project teams",
-          "Leads architectural and technical project coordination",
-          "Ensures BIM management complies with protocol objectives",
-          "Analyzes models, supports teams with complex modeling",
-          "Assesses collaborator levels",
-          "Develops and delivers Revit Architecture training",
-          "Researches technical solutions for team issues",
-          "Contributes to continuous BIM method improvement",
-          "Develops custom Python/pyRevit commands and Dynamo scripts",
-          "Leads internal development projects"
+          "Analyze BIM project objectives and draft BIM protocols",
+          "Set up CDE in collaboration with project teams",
+          "Lead architectural and technical project coordination",
+          "Ensure BIM management complies with protocol objectives",
+          "Analyze models, support teams with complex modeling",
+          "Assess collaborator levels",
+          "Develop and deliver Revit Architecture training",
+          "Research technical solutions for team issues",
+          "Contribute to continuous BIM method improvement",
+          "Develop custom Python/pyRevit commands and Dynamo scripts",
+          "Lead internal development projects"
         ]
       },
       {
