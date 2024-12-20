@@ -5,7 +5,8 @@ const SkillsSection = () => {
   const t = useTranslations();
 
   return (
-    <div className="grid md:grid-cols-2 gap-8 mb-12">
+    <div className="grid md:grid-cols-3 gap-8 mb-12">
+      {/* Soft Skills */}
       <div>
         <h2 className="text-2xl font-bold mb-4">{t.cv.skills.softSkills}</h2>
         <ul className="list-disc list-inside space-y-2">
@@ -15,6 +16,7 @@ const SkillsSection = () => {
         </ul>
       </div>
 
+      {/* Technical Skills */}
       <div>
         <h2 className="text-2xl font-bold mb-4">{t.cv.skills.hardSkills}</h2>
         <ul className="list-disc list-inside space-y-2">
@@ -24,6 +26,31 @@ const SkillsSection = () => {
             </li>
           ))}
         </ul>
+      </div>
+
+      {/* Languages and Hobbies */}
+      <div className="space-y-8">
+        {/* Languages */}
+        <div>
+          <h2 className="text-2xl font-bold mb-4">{t.cv.languages.title}</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li className="text-muted-foreground">{t.cv.languages.english}</li>
+            <li className="text-muted-foreground">{t.cv.languages.arabic}</li>
+            <li className="text-muted-foreground">{t.cv.languages.spanish}</li>
+          </ul>
+        </div>
+
+        {/* Hobbies */}
+        <div>
+          <h2 className="text-2xl font-bold mb-4">{t.cv.hobbies.title}</h2>
+          <ul className="list-disc list-inside space-y-2">
+            {t.cv.hobbies.items.map((hobby, index) => (
+              <li key={index} className="text-muted-foreground">
+                {hobby}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

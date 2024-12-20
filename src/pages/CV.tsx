@@ -2,9 +2,7 @@ import { useTranslations } from "@/hooks/useTranslations";
 import SkillsSection from "@/components/cv/SkillsSection";
 import ExperienceSection from "@/components/cv/ExperienceSection";
 import EducationSection from "@/components/cv/EducationSection";
-import LanguagesSection from "@/components/cv/LanguagesSection";
 import WorkshopsSection from "@/components/cv/WorkshopsSection";
-import HobbiesSection from "@/components/cv/HobbiesSection";
 
 const CV = () => {
   const t = useTranslations();
@@ -18,9 +16,7 @@ const CV = () => {
           <SkillsSection />
           <ExperienceSection />
           <EducationSection />
-          <LanguagesSection />
           <WorkshopsSection />
-          <HobbiesSection />
         </div>
       </div>
     </div>
