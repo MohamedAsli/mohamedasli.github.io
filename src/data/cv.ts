@@ -24,7 +24,6 @@ export const hardSkills = [
   { name: "GIT" },
   { name: "HTML" },
   { name: "CSS" },
-  { name: "XAML" },
   { name: "VBA" },
 ];
 

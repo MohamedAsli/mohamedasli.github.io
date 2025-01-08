@@ -105,29 +105,5 @@ The project achieves a 75% reduction in energy consumption compared to tradition
 - Enhanced thermal comfort
 - Lower maintenance requirements
 - Increased property value`
-  },
-  {
-    id: 'test-project',
-    title: 'Test Project',
-    description: 'Description of my test project',
-    category: 'Random',
-    date: '2099-13',
-    tools: ['Tool1', 'Tool2', 'Tool3'],
-    coverImage: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    content: `
-# Titre 1
-
-Content 1
-
-## Titre 1.1
-
-- 1
-- 2
-- 3
-
-
-### Titre 1.1.1
-
-Content 1.1.1`
   }
 ];

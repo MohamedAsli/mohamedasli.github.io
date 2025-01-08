@@ -51,8 +51,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center gap-4">
-            <LanguageSwitcher />
+          <div className="md:hidden">
             <button
               className="p-2"
               onClick={() => setIsOpen(!isOpen)}
@@ -86,6 +85,9 @@ const Navbar = () => {
               >
                 {t.nav.contact}
               </button>
+              <div className="pt-4 border-t">
+                <LanguageSwitcher />
+              </div>
             </div>
           </div>
         )}

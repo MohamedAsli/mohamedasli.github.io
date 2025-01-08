@@ -26,8 +26,8 @@ export const cvTranslations = {
     },
     workshops: {
       title: "Workshops",
-      adana: "International Workshop Adana (Turkey, in English)",
-      rosario: "International Workshop Rosario (Argentina, in Spanish)"
+      adana: "International Workshop Adana (Turkey, in English) - 2015",
+      rosario: "International Workshop Rosario (Argentina, in Spanish) - 2014"
     },
     hobbies: {
       title: "Hobbies",
@@ -69,8 +69,8 @@ export const cvTranslations = {
     },
     workshops: {
       title: "Workshops",
-      adana: "Workshop international Adana (Turquie, en anglais)",
-      rosario: "Workshop international Rosario (Argentine, en espagnol)"
+      adana: "Workshop international Adana (Turquie, en anglais) - 2015",
+      rosario: "Workshop international Rosario (Argentine, en espagnol) - 2014"
     },
     hobbies: {
       title: "Loisirs",
