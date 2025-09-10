@@ -20,8 +20,9 @@ export const cvTranslations = {
     },
     languages: {
       title: "Languages",
-      english: "English: Fluent",
       arabic: "Arabic: Bilingual",
+      french: "French: Bilingual",
+      english: "English: Fluent",
       spanish: "Spanish: Intermediate"
     },
     workshops: {
@@ -63,8 +64,9 @@ export const cvTranslations = {
     },
     languages: {
       title: "Langues",
-      english: "Anglais : courant",
       arabic: "Arabe : bilingue",
+      french: "Français: bilingue",
+      english: "Anglais : courant",
       spanish: "Espagnol : intermédiaire"
     },
     workshops: {
